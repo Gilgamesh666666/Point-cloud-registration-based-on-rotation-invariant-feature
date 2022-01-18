@@ -1,0 +1,1 @@
+from datasets import modelnet40, shapenet, modelnet40_4class

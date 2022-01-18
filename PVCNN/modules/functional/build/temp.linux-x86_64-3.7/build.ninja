@@ -1,0 +1,46 @@
+ninja_required_version = 1.3
+cxx = c++
+nvcc = /usr/local/cuda-10.2/bin/nvcc
+
+cflags = -pthread -B /home/zebai/.conda/envs/pytorch1.7/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include/TH -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include/THC -I/usr/local/cuda-10.2/include -I/home/zebai/.conda/envs/pytorch1.7/include/python3.7m -c
+post_cflags = -g -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=backend -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+cuda_cflags = -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include/TH -I/home/zebai/.conda/envs/pytorch1.7/lib/python3.7/site-packages/torch/include/THC -I/usr/local/cuda-10.2/include -I/home/zebai/.conda/envs/pytorch1.7/include/python3.7m -c
+cuda_post_cflags = -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' -O2 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=backend -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_61,code=sm_61 -std=c++14
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+rule cuda_compile
+  command = $nvcc $cuda_cflags -c $in -o $out $cuda_post_cflags
+
+
+
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/ball_query/ball_query.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/ball_query/ball_query.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/ball_query/ball_query.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/ball_query/ball_query.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/grouping/grouping.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/grouping/grouping.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/grouping/grouping.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/grouping/grouping.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/interpolate/neighbor_interpolate.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/interpolate/neighbor_interpolate.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/interpolate/neighbor_interpolate.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/interpolate/neighbor_interpolate.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/interpolate/trilinear_devox.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/interpolate/trilinear_devox.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/interpolate/trilinear_devox.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/interpolate/trilinear_devox.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/sampling/sampling.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/sampling/sampling.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/sampling/sampling.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/sampling/sampling.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/voxelization/vox.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/voxelization/vox.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/voxelization/vox.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/voxelization/vox.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/interpolate/spherical_trilinear_devox.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/interpolate/spherical_trilinear_devox.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/interpolate/spherical_trilinear_devox.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/interpolate/spherical_trilinear_devox.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/spherical_voxelization/spherical_vox.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/spherical_voxelization/spherical_vox.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/spherical_voxelization/spherical_vox.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/spherical_voxelization/spherical_vox.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/spherical_ppf/ppf.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/spherical_ppf/ppf.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/spherical_ppf/ppf.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/spherical_ppf/ppf.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/knn/knn.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/knn/knn.cpp
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/knn/knn.o: cuda_compile /home/zebai/exp1/PVCNN/modules/functional/src/knn/knn.cu
+build /home/zebai/exp1/PVCNN/modules/functional/build/temp.linux-x86_64-3.7/home/zebai/exp1/PVCNN/modules/functional/src/bindings.o: compile /home/zebai/exp1/PVCNN/modules/functional/src/bindings.cpp
+
+
+
+
+

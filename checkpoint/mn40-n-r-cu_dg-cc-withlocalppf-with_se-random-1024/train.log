@@ -1,0 +1,501 @@
+[INFO] 2020-06-12 20:10:54:mn40-n-r-cu_dg-cc-withlocalppf-with_se-random-1024
+[INFO] 2020-06-12 20:10:54:epoch = 0/250
+[INFO] 2020-06-12 20:15:51:results[train-acc_valid] = 0.5263371150729336, best_results[train-acc_valid] = 0.5263371150729336
+[INFO] 2020-06-12 20:15:52:epoch = 1/250
+[INFO] 2020-06-12 20:20:41:results[train-acc_valid] = 0.5960291734197731, best_results[train-acc_valid] = 0.5960291734197731
+[INFO] 2020-06-12 20:20:42:epoch = 2/250
+[INFO] 2020-06-12 20:25:29:results[train-acc_valid] = 0.6576175040518638, best_results[train-acc_valid] = 0.6576175040518638
+[INFO] 2020-06-12 20:25:30:epoch = 3/250
+[INFO] 2020-06-12 20:30:17:results[train-acc_valid] = 0.7285251215559158, best_results[train-acc_valid] = 0.7285251215559158
+[INFO] 2020-06-12 20:30:17:epoch = 4/250
+[INFO] 2020-06-12 20:35:04:results[train-acc_valid] = 0.7917341977309562, best_results[train-acc_valid] = 0.7917341977309562
+[INFO] 2020-06-12 20:35:05:epoch = 5/250
+[INFO] 2020-06-12 20:39:54:results[train-acc_valid] = 0.7552674230145867, best_results[train-acc_valid] = 0.7917341977309562
+[INFO] 2020-06-12 20:39:55:epoch = 6/250
+[INFO] 2020-06-12 20:44:44:results[train-acc_valid] = 0.7463533225283631, best_results[train-acc_valid] = 0.7917341977309562
+[INFO] 2020-06-12 20:44:44:epoch = 7/250
+[INFO] 2020-06-12 20:49:34:results[train-acc_valid] = 0.7917341977309562, best_results[train-acc_valid] = 0.7917341977309562
+[INFO] 2020-06-12 20:49:34:epoch = 8/250
+[INFO] 2020-06-12 20:54:22:results[train-acc_valid] = 0.8091572123176661, best_results[train-acc_valid] = 0.8091572123176661
+[INFO] 2020-06-12 20:54:22:epoch = 9/250
+[INFO] 2020-06-12 20:59:09:results[train-acc_valid] = 0.807131280388979, best_results[train-acc_valid] = 0.8091572123176661
+[INFO] 2020-06-12 20:59:09:epoch = 10/250
+[INFO] 2020-06-12 21:03:57:results[train-acc_valid] = 0.8063209076175041, best_results[train-acc_valid] = 0.8091572123176661
+[INFO] 2020-06-12 21:03:58:epoch = 11/250
+[INFO] 2020-06-12 21:08:45:results[train-acc_valid] = 0.799837925445705, best_results[train-acc_valid] = 0.8091572123176661
+[INFO] 2020-06-12 21:08:45:epoch = 12/250
+[INFO] 2020-06-12 21:13:32:results[train-acc_valid] = 0.8225283630470016, best_results[train-acc_valid] = 0.8225283630470016
+[INFO] 2020-06-12 21:13:32:epoch = 13/250
+[INFO] 2020-06-12 21:18:22:results[train-acc_valid] = 0.8176661264181524, best_results[train-acc_valid] = 0.8225283630470016
+[INFO] 2020-06-12 21:18:22:epoch = 14/250
+[INFO] 2020-06-12 21:23:11:results[train-acc_valid] = 0.8484602917341977, best_results[train-acc_valid] = 0.8484602917341977
+[INFO] 2020-06-12 21:23:11:epoch = 15/250
+[INFO] 2020-06-12 21:28:00:results[train-acc_valid] = 0.850486223662885, best_results[train-acc_valid] = 0.850486223662885
+[INFO] 2020-06-12 21:28:00:epoch = 16/250
+[INFO] 2020-06-12 21:32:49:results[train-acc_valid] = 0.8225283630470016, best_results[train-acc_valid] = 0.850486223662885
+[INFO] 2020-06-12 21:32:49:epoch = 17/250
+[INFO] 2020-06-12 21:37:36:results[train-acc_valid] = 0.839546191247974, best_results[train-acc_valid] = 0.850486223662885
+[INFO] 2020-06-12 21:37:36:epoch = 18/250
+[INFO] 2020-06-12 21:42:24:results[train-acc_valid] = 0.8553484602917342, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 21:42:25:epoch = 19/250
+[INFO] 2020-06-12 21:47:13:results[train-acc_valid] = 0.850486223662885, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 21:47:14:epoch = 20/250
+[INFO] 2020-06-12 21:52:00:results[train-acc_valid] = 0.8484602917341977, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 21:52:00:epoch = 21/250
+[INFO] 2020-06-12 21:56:47:results[train-acc_valid] = 0.8492706645056726, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 21:56:47:epoch = 22/250
+[INFO] 2020-06-12 22:01:34:results[train-acc_valid] = 0.8375202593192869, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 22:01:34:epoch = 23/250
+[INFO] 2020-06-12 22:06:23:results[train-acc_valid] = 0.8273905996758509, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 22:06:23:epoch = 24/250
+[INFO] 2020-06-12 22:11:11:results[train-acc_valid] = 0.8419773095623987, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 22:11:11:epoch = 25/250
+[INFO] 2020-06-12 22:16:01:results[train-acc_valid] = 0.8192868719611021, best_results[train-acc_valid] = 0.8553484602917342
+[INFO] 2020-06-12 22:16:01:epoch = 26/250
+[INFO] 2020-06-12 22:20:49:results[train-acc_valid] = 0.8703403565640194, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:20:49:epoch = 27/250
+[INFO] 2020-06-12 22:25:39:results[train-acc_valid] = 0.836709886547812, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:25:39:epoch = 28/250
+[INFO] 2020-06-12 22:30:31:results[train-acc_valid] = 0.8529173419773096, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:30:31:epoch = 29/250
+[INFO] 2020-06-12 22:35:22:results[train-acc_valid] = 0.859805510534846, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:35:22:epoch = 30/250
+[INFO] 2020-06-12 22:40:11:results[train-acc_valid] = 0.8415721231766613, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:40:11:epoch = 31/250
+[INFO] 2020-06-12 22:44:59:results[train-acc_valid] = 0.843192868719611, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:44:59:epoch = 32/250
+[INFO] 2020-06-12 22:49:49:results[train-acc_valid] = 0.8573743922204214, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:49:49:epoch = 33/250
+[INFO] 2020-06-12 22:54:37:results[train-acc_valid] = 0.8346839546191248, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:54:38:epoch = 34/250
+[INFO] 2020-06-12 22:59:27:results[train-acc_valid] = 0.8638573743922204, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 22:59:27:epoch = 35/250
+[INFO] 2020-06-12 23:04:38:results[train-acc_valid] = 0.8618314424635333, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:04:39:epoch = 36/250
+[INFO] 2020-06-12 23:10:23:results[train-acc_valid] = 0.8488654781199352, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:10:23:epoch = 37/250
+[INFO] 2020-06-12 23:16:09:results[train-acc_valid] = 0.8683144246353323, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:16:10:epoch = 38/250
+[INFO] 2020-06-12 23:21:57:results[train-acc_valid] = 0.8642625607779578, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:21:57:epoch = 39/250
+[INFO] 2020-06-12 23:27:42:results[train-acc_valid] = 0.8654781199351702, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:27:42:epoch = 40/250
+[INFO] 2020-06-12 23:32:48:results[train-acc_valid] = 0.8521069692058347, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:32:48:epoch = 41/250
+[INFO] 2020-06-12 23:37:37:results[train-acc_valid] = 0.8626418152350082, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:37:37:epoch = 42/250
+[INFO] 2020-06-12 23:42:26:results[train-acc_valid] = 0.8585899513776337, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:42:26:epoch = 43/250
+[INFO] 2020-06-12 23:47:14:results[train-acc_valid] = 0.8606158833063209, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:47:15:epoch = 44/250
+[INFO] 2020-06-12 23:52:02:results[train-acc_valid] = 0.8512965964343598, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:52:02:epoch = 45/250
+[INFO] 2020-06-12 23:56:52:results[train-acc_valid] = 0.8650729335494327, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-12 23:56:53:epoch = 46/250
+[INFO] 2020-06-13 00:01:40:results[train-acc_valid] = 0.8614262560777958, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:01:40:epoch = 47/250
+[INFO] 2020-06-13 00:06:28:results[train-acc_valid] = 0.8529173419773096, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:06:28:epoch = 48/250
+[INFO] 2020-06-13 00:11:17:results[train-acc_valid] = 0.8695299837925445, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:11:17:epoch = 49/250
+[INFO] 2020-06-13 00:16:06:results[train-acc_valid] = 0.8581847649918962, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:16:07:epoch = 50/250
+[INFO] 2020-06-13 00:20:54:results[train-acc_valid] = 0.8666936790923825, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:20:54:epoch = 51/250
+[INFO] 2020-06-13 00:25:40:results[train-acc_valid] = 0.8496758508914101, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:25:41:epoch = 52/250
+[INFO] 2020-06-13 00:30:25:results[train-acc_valid] = 0.859805510534846, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:30:25:epoch = 53/250
+[INFO] 2020-06-13 00:35:13:results[train-acc_valid] = 0.8646677471636953, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:35:13:epoch = 54/250
+[INFO] 2020-06-13 00:40:00:results[train-acc_valid] = 0.8703403565640194, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:40:00:epoch = 55/250
+[INFO] 2020-06-13 00:44:47:results[train-acc_valid] = 0.8666936790923825, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:44:47:epoch = 56/250
+[INFO] 2020-06-13 00:49:34:results[train-acc_valid] = 0.8634521880064829, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:49:34:epoch = 57/250
+[INFO] 2020-06-13 00:54:23:results[train-acc_valid] = 0.8658833063209076, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:54:23:epoch = 58/250
+[INFO] 2020-06-13 00:59:10:results[train-acc_valid] = 0.86709886547812, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 00:59:10:epoch = 59/250
+[INFO] 2020-06-13 01:03:56:results[train-acc_valid] = 0.8614262560777958, best_results[train-acc_valid] = 0.8703403565640194
+[INFO] 2020-06-13 01:03:56:epoch = 60/250
+[INFO] 2020-06-13 01:08:43:results[train-acc_valid] = 0.8743922204213939, best_results[train-acc_valid] = 0.8743922204213939
+[INFO] 2020-06-13 01:08:43:epoch = 61/250
+[INFO] 2020-06-13 01:13:32:results[train-acc_valid] = 0.8695299837925445, best_results[train-acc_valid] = 0.8743922204213939
+[INFO] 2020-06-13 01:13:32:epoch = 62/250
+[INFO] 2020-06-13 01:18:17:results[train-acc_valid] = 0.8703403565640194, best_results[train-acc_valid] = 0.8743922204213939
+[INFO] 2020-06-13 01:18:17:epoch = 63/250
+[INFO] 2020-06-13 01:23:03:results[train-acc_valid] = 0.8768233387358185, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:23:04:epoch = 64/250
+[INFO] 2020-06-13 01:27:49:results[train-acc_valid] = 0.8638573743922204, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:27:49:epoch = 65/250
+[INFO] 2020-06-13 01:32:35:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:32:35:epoch = 66/250
+[INFO] 2020-06-13 01:37:20:results[train-acc_valid] = 0.8675040518638574, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:37:20:epoch = 67/250
+[INFO] 2020-06-13 01:42:07:results[train-acc_valid] = 0.8715559157212318, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:42:07:epoch = 68/250
+[INFO] 2020-06-13 01:46:53:results[train-acc_valid] = 0.8715559157212318, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:46:53:epoch = 69/250
+[INFO] 2020-06-13 01:51:38:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:51:39:epoch = 70/250
+[INFO] 2020-06-13 01:56:23:results[train-acc_valid] = 0.8703403565640194, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 01:56:23:epoch = 71/250
+[INFO] 2020-06-13 02:01:07:results[train-acc_valid] = 0.8662884927066451, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 02:01:07:epoch = 72/250
+[INFO] 2020-06-13 02:05:52:results[train-acc_valid] = 0.8658833063209076, best_results[train-acc_valid] = 0.8768233387358185
+[INFO] 2020-06-13 02:05:52:epoch = 73/250
+[INFO] 2020-06-13 02:10:37:results[train-acc_valid] = 0.8772285251215559, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:10:37:epoch = 74/250
+[INFO] 2020-06-13 02:15:23:results[train-acc_valid] = 0.8650729335494327, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:15:23:epoch = 75/250
+[INFO] 2020-06-13 02:20:11:results[train-acc_valid] = 0.8739870340356564, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:20:11:epoch = 76/250
+[INFO] 2020-06-13 02:24:58:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:24:58:epoch = 77/250
+[INFO] 2020-06-13 02:29:48:results[train-acc_valid] = 0.876418152350081, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:29:48:epoch = 78/250
+[INFO] 2020-06-13 02:34:38:results[train-acc_valid] = 0.8589951377633711, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:34:38:epoch = 79/250
+[INFO] 2020-06-13 02:39:26:results[train-acc_valid] = 0.8715559157212318, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:39:27:epoch = 80/250
+[INFO] 2020-06-13 02:44:15:results[train-acc_valid] = 0.8727714748784441, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:44:15:epoch = 81/250
+[INFO] 2020-06-13 02:49:04:results[train-acc_valid] = 0.8711507293354943, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:49:04:epoch = 82/250
+[INFO] 2020-06-13 02:53:54:results[train-acc_valid] = 0.8687196110210696, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:53:54:epoch = 83/250
+[INFO] 2020-06-13 02:58:41:results[train-acc_valid] = 0.8703403565640194, best_results[train-acc_valid] = 0.8772285251215559
+[INFO] 2020-06-13 02:58:41:epoch = 84/250
+[INFO] 2020-06-13 03:03:30:results[train-acc_valid] = 0.8808752025931929, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:03:31:epoch = 85/250
+[INFO] 2020-06-13 03:08:19:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:08:19:epoch = 86/250
+[INFO] 2020-06-13 03:13:07:results[train-acc_valid] = 0.8662884927066451, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:13:07:epoch = 87/250
+[INFO] 2020-06-13 03:17:55:results[train-acc_valid] = 0.8634521880064829, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:17:55:epoch = 88/250
+[INFO] 2020-06-13 03:22:43:results[train-acc_valid] = 0.869935170178282, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:22:44:epoch = 89/250
+[INFO] 2020-06-13 03:27:31:results[train-acc_valid] = 0.8646677471636953, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:27:31:epoch = 90/250
+[INFO] 2020-06-13 03:32:19:results[train-acc_valid] = 0.8683144246353323, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:32:20:epoch = 91/250
+[INFO] 2020-06-13 03:37:08:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:37:08:epoch = 92/250
+[INFO] 2020-06-13 03:41:56:results[train-acc_valid] = 0.8549432739059968, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:41:57:epoch = 93/250
+[INFO] 2020-06-13 03:46:45:results[train-acc_valid] = 0.8723662884927067, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:46:45:epoch = 94/250
+[INFO] 2020-06-13 03:51:33:results[train-acc_valid] = 0.8780388978930308, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:51:33:epoch = 95/250
+[INFO] 2020-06-13 03:56:22:results[train-acc_valid] = 0.8743922204213939, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 03:56:22:epoch = 96/250
+[INFO] 2020-06-13 04:01:09:results[train-acc_valid] = 0.8756077795786061, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:01:09:epoch = 97/250
+[INFO] 2020-06-13 04:05:56:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:05:57:epoch = 98/250
+[INFO] 2020-06-13 04:10:45:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:10:45:epoch = 99/250
+[INFO] 2020-06-13 04:15:33:results[train-acc_valid] = 0.8780388978930308, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:15:33:epoch = 100/250
+[INFO] 2020-06-13 04:20:23:results[train-acc_valid] = 0.8784440842787682, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:20:23:epoch = 101/250
+[INFO] 2020-06-13 04:25:12:results[train-acc_valid] = 0.8788492706645057, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:25:12:epoch = 102/250
+[INFO] 2020-06-13 04:30:02:results[train-acc_valid] = 0.8756077795786061, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:30:03:epoch = 103/250
+[INFO] 2020-06-13 04:34:51:results[train-acc_valid] = 0.8731766612641815, best_results[train-acc_valid] = 0.8808752025931929
+[INFO] 2020-06-13 04:34:52:epoch = 104/250
+[INFO] 2020-06-13 04:39:39:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 04:39:40:epoch = 105/250
+[INFO] 2020-06-13 04:44:27:results[train-acc_valid] = 0.8743922204213939, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 04:44:27:epoch = 106/250
+[INFO] 2020-06-13 04:49:16:results[train-acc_valid] = 0.8760129659643436, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 04:49:17:epoch = 107/250
+[INFO] 2020-06-13 04:54:07:results[train-acc_valid] = 0.8760129659643436, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 04:54:07:epoch = 108/250
+[INFO] 2020-06-13 04:58:53:results[train-acc_valid] = 0.8691247974068071, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 04:58:53:epoch = 109/250
+[INFO] 2020-06-13 05:03:41:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:03:41:epoch = 110/250
+[INFO] 2020-06-13 05:08:28:results[train-acc_valid] = 0.8707455429497569, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:08:29:epoch = 111/250
+[INFO] 2020-06-13 05:13:16:results[train-acc_valid] = 0.876418152350081, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:13:16:epoch = 112/250
+[INFO] 2020-06-13 05:18:06:results[train-acc_valid] = 0.873581847649919, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:18:06:epoch = 113/250
+[INFO] 2020-06-13 05:22:52:results[train-acc_valid] = 0.8812803889789304, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:22:52:epoch = 114/250
+[INFO] 2020-06-13 05:27:39:results[train-acc_valid] = 0.873581847649919, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:27:39:epoch = 115/250
+[INFO] 2020-06-13 05:32:28:results[train-acc_valid] = 0.8731766612641815, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:32:28:epoch = 116/250
+[INFO] 2020-06-13 05:37:16:results[train-acc_valid] = 0.8752025931928687, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:37:17:epoch = 117/250
+[INFO] 2020-06-13 05:42:05:results[train-acc_valid] = 0.8743922204213939, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:42:05:epoch = 118/250
+[INFO] 2020-06-13 05:46:54:results[train-acc_valid] = 0.8760129659643436, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:46:54:epoch = 119/250
+[INFO] 2020-06-13 05:51:43:results[train-acc_valid] = 0.8675040518638574, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:51:43:epoch = 120/250
+[INFO] 2020-06-13 05:56:30:results[train-acc_valid] = 0.8792544570502431, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 05:56:31:epoch = 121/250
+[INFO] 2020-06-13 06:01:18:results[train-acc_valid] = 0.8776337115072933, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:01:18:epoch = 122/250
+[INFO] 2020-06-13 06:06:06:results[train-acc_valid] = 0.8780388978930308, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:06:06:epoch = 123/250
+[INFO] 2020-06-13 06:10:54:results[train-acc_valid] = 0.8731766612641815, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:10:55:epoch = 124/250
+[INFO] 2020-06-13 06:15:43:results[train-acc_valid] = 0.8796596434359806, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:15:44:epoch = 125/250
+[INFO] 2020-06-13 06:20:33:results[train-acc_valid] = 0.8747974068071313, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:20:33:epoch = 126/250
+[INFO] 2020-06-13 06:25:22:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:25:22:epoch = 127/250
+[INFO] 2020-06-13 06:30:11:results[train-acc_valid] = 0.8824959481361426, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:30:12:epoch = 128/250
+[INFO] 2020-06-13 06:35:02:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:35:02:epoch = 129/250
+[INFO] 2020-06-13 06:39:50:results[train-acc_valid] = 0.8837115072933549, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:39:50:epoch = 130/250
+[INFO] 2020-06-13 06:44:37:results[train-acc_valid] = 0.8731766612641815, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:44:38:epoch = 131/250
+[INFO] 2020-06-13 06:49:26:results[train-acc_valid] = 0.880064829821718, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:49:26:epoch = 132/250
+[INFO] 2020-06-13 06:54:14:results[train-acc_valid] = 0.8820907617504052, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:54:14:epoch = 133/250
+[INFO] 2020-06-13 06:59:02:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 06:59:02:epoch = 134/250
+[INFO] 2020-06-13 07:03:51:results[train-acc_valid] = 0.8760129659643436, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:03:51:epoch = 135/250
+[INFO] 2020-06-13 07:08:41:results[train-acc_valid] = 0.876418152350081, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:08:41:epoch = 136/250
+[INFO] 2020-06-13 07:13:32:results[train-acc_valid] = 0.8816855753646677, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:13:32:epoch = 137/250
+[INFO] 2020-06-13 07:18:21:results[train-acc_valid] = 0.8760129659643436, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:18:21:epoch = 138/250
+[INFO] 2020-06-13 07:23:10:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:23:10:epoch = 139/250
+[INFO] 2020-06-13 07:27:59:results[train-acc_valid] = 0.8824959481361426, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:27:59:epoch = 140/250
+[INFO] 2020-06-13 07:32:47:results[train-acc_valid] = 0.8812803889789304, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:32:47:epoch = 141/250
+[INFO] 2020-06-13 07:37:35:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:37:35:epoch = 142/250
+[INFO] 2020-06-13 07:42:24:results[train-acc_valid] = 0.8784440842787682, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:42:25:epoch = 143/250
+[INFO] 2020-06-13 07:47:16:results[train-acc_valid] = 0.8739870340356564, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:47:16:epoch = 144/250
+[INFO] 2020-06-13 07:52:06:results[train-acc_valid] = 0.8723662884927067, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:52:07:epoch = 145/250
+[INFO] 2020-06-13 07:56:55:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 07:56:56:epoch = 146/250
+[INFO] 2020-06-13 08:01:43:results[train-acc_valid] = 0.8780388978930308, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:01:44:epoch = 147/250
+[INFO] 2020-06-13 08:06:32:results[train-acc_valid] = 0.8812803889789304, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:06:32:epoch = 148/250
+[INFO] 2020-06-13 08:11:21:results[train-acc_valid] = 0.8756077795786061, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:11:21:epoch = 149/250
+[INFO] 2020-06-13 08:16:09:results[train-acc_valid] = 0.8816855753646677, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:16:09:epoch = 150/250
+[INFO] 2020-06-13 08:20:55:results[train-acc_valid] = 0.8707455429497569, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:20:56:epoch = 151/250
+[INFO] 2020-06-13 08:25:44:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:25:44:epoch = 152/250
+[INFO] 2020-06-13 08:30:34:results[train-acc_valid] = 0.8837115072933549, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:30:34:epoch = 153/250
+[INFO] 2020-06-13 08:35:24:results[train-acc_valid] = 0.8804700162074555, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:35:24:epoch = 154/250
+[INFO] 2020-06-13 08:40:14:results[train-acc_valid] = 0.8816855753646677, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:40:14:epoch = 155/250
+[INFO] 2020-06-13 08:45:03:results[train-acc_valid] = 0.8796596434359806, best_results[train-acc_valid] = 0.8841166936790924
+[INFO] 2020-06-13 08:45:03:epoch = 156/250
+[INFO] 2020-06-13 08:49:52:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8845218800648298
+[INFO] 2020-06-13 08:49:52:epoch = 157/250
+[INFO] 2020-06-13 08:54:40:results[train-acc_valid] = 0.8837115072933549, best_results[train-acc_valid] = 0.8845218800648298
+[INFO] 2020-06-13 08:54:41:epoch = 158/250
+[INFO] 2020-06-13 08:59:29:results[train-acc_valid] = 0.8824959481361426, best_results[train-acc_valid] = 0.8845218800648298
+[INFO] 2020-06-13 08:59:29:epoch = 159/250
+[INFO] 2020-06-13 09:04:16:results[train-acc_valid] = 0.8788492706645057, best_results[train-acc_valid] = 0.8845218800648298
+[INFO] 2020-06-13 09:04:16:epoch = 160/250
+[INFO] 2020-06-13 09:09:04:results[train-acc_valid] = 0.8877633711507293, best_results[train-acc_valid] = 0.8877633711507293
+[INFO] 2020-06-13 09:09:04:epoch = 161/250
+[INFO] 2020-06-13 09:13:53:results[train-acc_valid] = 0.8849270664505673, best_results[train-acc_valid] = 0.8877633711507293
+[INFO] 2020-06-13 09:13:53:epoch = 162/250
+[INFO] 2020-06-13 09:18:41:results[train-acc_valid] = 0.8873581847649918, best_results[train-acc_valid] = 0.8877633711507293
+[INFO] 2020-06-13 09:18:42:epoch = 163/250
+[INFO] 2020-06-13 09:23:30:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8877633711507293
+[INFO] 2020-06-13 09:23:30:epoch = 164/250
+[INFO] 2020-06-13 09:28:20:results[train-acc_valid] = 0.8893841166936791, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:28:21:epoch = 165/250
+[INFO] 2020-06-13 09:33:09:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:33:09:epoch = 166/250
+[INFO] 2020-06-13 09:37:57:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:37:57:epoch = 167/250
+[INFO] 2020-06-13 09:42:47:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:42:47:epoch = 168/250
+[INFO] 2020-06-13 09:47:35:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:47:35:epoch = 169/250
+[INFO] 2020-06-13 09:52:25:results[train-acc_valid] = 0.8780388978930308, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:52:25:epoch = 170/250
+[INFO] 2020-06-13 09:57:13:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 09:57:14:epoch = 171/250
+[INFO] 2020-06-13 10:02:03:results[train-acc_valid] = 0.8812803889789304, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:02:03:epoch = 172/250
+[INFO] 2020-06-13 10:06:52:results[train-acc_valid] = 0.8877633711507293, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:06:52:epoch = 173/250
+[INFO] 2020-06-13 10:11:40:results[train-acc_valid] = 0.8877633711507293, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:11:41:epoch = 174/250
+[INFO] 2020-06-13 10:16:29:results[train-acc_valid] = 0.88290113452188, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:16:29:epoch = 175/250
+[INFO] 2020-06-13 10:21:15:results[train-acc_valid] = 0.8796596434359806, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:21:15:epoch = 176/250
+[INFO] 2020-06-13 10:26:06:results[train-acc_valid] = 0.8857374392220422, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:26:06:epoch = 177/250
+[INFO] 2020-06-13 10:40:28:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 10:40:29:epoch = 178/250
+[INFO] 2020-06-13 11:02:50:results[train-acc_valid] = 0.8808752025931929, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 11:02:50:epoch = 179/250
+[INFO] 2020-06-13 11:21:06:results[train-acc_valid] = 0.8853322528363047, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 11:21:07:epoch = 180/250
+[INFO] 2020-06-13 11:38:27:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 11:38:27:epoch = 181/250
+[INFO] 2020-06-13 11:52:52:results[train-acc_valid] = 0.8752025931928687, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 11:52:53:epoch = 182/250
+[INFO] 2020-06-13 12:01:32:results[train-acc_valid] = 0.88290113452188, best_results[train-acc_valid] = 0.8893841166936791
+[INFO] 2020-06-13 12:01:32:epoch = 183/250
+[INFO] 2020-06-13 12:08:20:results[train-acc_valid] = 0.893030794165316, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:08:20:epoch = 184/250
+[INFO] 2020-06-13 12:13:57:results[train-acc_valid] = 0.8877633711507293, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:13:57:epoch = 185/250
+[INFO] 2020-06-13 12:18:45:results[train-acc_valid] = 0.8869529983792545, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:18:45:epoch = 186/250
+[INFO] 2020-06-13 12:23:33:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:23:34:epoch = 187/250
+[INFO] 2020-06-13 12:28:21:results[train-acc_valid] = 0.8889789303079416, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:28:22:epoch = 188/250
+[INFO] 2020-06-13 12:33:09:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:33:09:epoch = 189/250
+[INFO] 2020-06-13 12:37:58:results[train-acc_valid] = 0.8849270664505673, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:37:58:epoch = 190/250
+[INFO] 2020-06-13 12:42:45:results[train-acc_valid] = 0.8918152350081038, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:42:45:epoch = 191/250
+[INFO] 2020-06-13 12:47:34:results[train-acc_valid] = 0.873581847649919, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:47:34:epoch = 192/250
+[INFO] 2020-06-13 12:52:22:results[train-acc_valid] = 0.8857374392220422, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:52:22:epoch = 193/250
+[INFO] 2020-06-13 12:57:12:results[train-acc_valid] = 0.8910048622366289, best_results[train-acc_valid] = 0.893030794165316
+[INFO] 2020-06-13 12:57:12:epoch = 194/250
+[INFO] 2020-06-13 13:01:58:results[train-acc_valid] = 0.8942463533225283, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:01:58:epoch = 195/250
+[INFO] 2020-06-13 13:06:43:results[train-acc_valid] = 0.8873581847649918, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:06:44:epoch = 196/250
+[INFO] 2020-06-13 13:11:29:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:11:29:epoch = 197/250
+[INFO] 2020-06-13 13:16:15:results[train-acc_valid] = 0.8881685575364667, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:16:15:epoch = 198/250
+[INFO] 2020-06-13 13:21:03:results[train-acc_valid] = 0.8824959481361426, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:21:03:epoch = 199/250
+[INFO] 2020-06-13 13:25:48:results[train-acc_valid] = 0.8816855753646677, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:25:48:epoch = 200/250
+[INFO] 2020-06-13 13:30:35:results[train-acc_valid] = 0.890194489465154, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:30:35:epoch = 201/250
+[INFO] 2020-06-13 13:35:22:results[train-acc_valid] = 0.8824959481361426, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:35:22:epoch = 202/250
+[INFO] 2020-06-13 13:40:08:results[train-acc_valid] = 0.8910048622366289, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:40:08:epoch = 203/250
+[INFO] 2020-06-13 13:44:55:results[train-acc_valid] = 0.8837115072933549, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:44:55:epoch = 204/250
+[INFO] 2020-06-13 13:49:42:results[train-acc_valid] = 0.8857374392220422, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:49:42:epoch = 205/250
+[INFO] 2020-06-13 13:54:28:results[train-acc_valid] = 0.8873581847649918, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:54:28:epoch = 206/250
+[INFO] 2020-06-13 13:59:16:results[train-acc_valid] = 0.890194489465154, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 13:59:16:epoch = 207/250
+[INFO] 2020-06-13 14:04:06:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:04:06:epoch = 208/250
+[INFO] 2020-06-13 14:08:53:results[train-acc_valid] = 0.8869529983792545, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:08:53:epoch = 209/250
+[INFO] 2020-06-13 14:13:42:results[train-acc_valid] = 0.8853322528363047, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:13:42:epoch = 210/250
+[INFO] 2020-06-13 14:18:30:results[train-acc_valid] = 0.8857374392220422, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:18:30:epoch = 211/250
+[INFO] 2020-06-13 14:23:18:results[train-acc_valid] = 0.8853322528363047, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:23:18:epoch = 212/250
+[INFO] 2020-06-13 14:28:02:results[train-acc_valid] = 0.8812803889789304, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:28:03:epoch = 213/250
+[INFO] 2020-06-13 14:32:51:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:32:51:epoch = 214/250
+[INFO] 2020-06-13 14:37:37:results[train-acc_valid] = 0.8873581847649918, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:37:37:epoch = 215/250
+[INFO] 2020-06-13 14:42:23:results[train-acc_valid] = 0.8918152350081038, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:42:23:epoch = 216/250
+[INFO] 2020-06-13 14:47:12:results[train-acc_valid] = 0.8861426256077796, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:47:12:epoch = 217/250
+[INFO] 2020-06-13 14:51:58:results[train-acc_valid] = 0.8869529983792545, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:51:58:epoch = 218/250
+[INFO] 2020-06-13 14:56:46:results[train-acc_valid] = 0.8857374392220422, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 14:56:46:epoch = 219/250
+[INFO] 2020-06-13 15:01:33:results[train-acc_valid] = 0.88290113452188, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:01:34:epoch = 220/250
+[INFO] 2020-06-13 15:06:20:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:06:20:epoch = 221/250
+[INFO] 2020-06-13 15:11:10:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:11:10:epoch = 222/250
+[INFO] 2020-06-13 15:15:59:results[train-acc_valid] = 0.8914100486223663, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:15:59:epoch = 223/250
+[INFO] 2020-06-13 15:20:48:results[train-acc_valid] = 0.8853322528363047, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:20:48:epoch = 224/250
+[INFO] 2020-06-13 15:25:59:results[train-acc_valid] = 0.8853322528363047, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:26:00:epoch = 225/250
+[INFO] 2020-06-13 15:31:33:results[train-acc_valid] = 0.8833063209076175, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:31:33:epoch = 226/250
+[INFO] 2020-06-13 15:37:13:results[train-acc_valid] = 0.8853322528363047, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:37:13:epoch = 227/250
+[INFO] 2020-06-13 15:42:49:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:42:49:epoch = 228/250
+[INFO] 2020-06-13 15:48:21:results[train-acc_valid] = 0.890194489465154, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:48:22:epoch = 229/250
+[INFO] 2020-06-13 15:53:48:results[train-acc_valid] = 0.8857374392220422, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:53:48:epoch = 230/250
+[INFO] 2020-06-13 15:59:19:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 15:59:19:epoch = 231/250
+[INFO] 2020-06-13 16:04:51:results[train-acc_valid] = 0.8861426256077796, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:04:52:epoch = 232/250
+[INFO] 2020-06-13 16:10:20:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:10:20:epoch = 233/250
+[INFO] 2020-06-13 16:15:50:results[train-acc_valid] = 0.8780388978930308, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:15:51:epoch = 234/250
+[INFO] 2020-06-13 16:21:22:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:21:22:epoch = 235/250
+[INFO] 2020-06-13 16:26:51:results[train-acc_valid] = 0.8893841166936791, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:26:51:epoch = 236/250
+[INFO] 2020-06-13 16:32:22:results[train-acc_valid] = 0.8918152350081038, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:32:23:epoch = 237/250
+[INFO] 2020-06-13 16:37:52:results[train-acc_valid] = 0.8849270664505673, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:37:52:epoch = 238/250
+[INFO] 2020-06-13 16:43:25:results[train-acc_valid] = 0.8865478119935171, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:43:25:epoch = 239/250
+[INFO] 2020-06-13 16:48:54:results[train-acc_valid] = 0.8885737439222042, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:48:55:epoch = 240/250
+[INFO] 2020-06-13 16:54:22:results[train-acc_valid] = 0.8885737439222042, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 16:54:22:epoch = 241/250
+[INFO] 2020-06-13 17:00:40:results[train-acc_valid] = 0.8845218800648298, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:00:41:epoch = 242/250
+[INFO] 2020-06-13 17:05:39:results[train-acc_valid] = 0.8877633711507293, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:05:40:epoch = 243/250
+[INFO] 2020-06-13 17:10:27:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:10:27:epoch = 244/250
+[INFO] 2020-06-13 17:15:15:results[train-acc_valid] = 0.8841166936790924, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:15:15:epoch = 245/250
+[INFO] 2020-06-13 17:20:05:results[train-acc_valid] = 0.8881685575364667, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:20:05:epoch = 246/250
+[INFO] 2020-06-13 17:24:54:results[train-acc_valid] = 0.8873581847649918, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:24:55:epoch = 247/250
+[INFO] 2020-06-13 17:29:51:results[train-acc_valid] = 0.8910048622366289, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:29:51:epoch = 248/250
+[INFO] 2020-06-13 17:34:55:results[train-acc_valid] = 0.8837115072933549, best_results[train-acc_valid] = 0.8942463533225283
+[INFO] 2020-06-13 17:34:55:epoch = 249/250
+[INFO] 2020-06-13 17:40:08:results[train-acc_valid] = 0.8869529983792545, best_results[train-acc_valid] = 0.8942463533225283

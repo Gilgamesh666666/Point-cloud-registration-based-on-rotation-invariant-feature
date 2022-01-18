@@ -1,0 +1,204 @@
+[INFO] 2020-11-23 22:24:11:sn-sph-dg-change_coords-withlocal-1024
+[INFO] 2020-11-23 22:24:11:epoch = 0/400
+[INFO] 2020-11-23 22:31:34:results[train-iou_valid] = 0.5448237252399527, best_results[train-iou_valid] = 0.5448237252399527
+[INFO] 2020-11-23 22:31:34:epoch = 1/400
+[INFO] 2020-11-23 22:38:58:results[train-iou_valid] = 0.6034820885076208, best_results[train-iou_valid] = 0.6034820885076208
+[INFO] 2020-11-23 22:38:58:epoch = 2/400
+[INFO] 2020-11-23 22:46:05:results[train-iou_valid] = 0.6340119382695658, best_results[train-iou_valid] = 0.6340119382695658
+[INFO] 2020-11-23 22:46:05:epoch = 3/400
+[INFO] 2020-11-23 22:53:12:results[train-iou_valid] = 0.6574723098814056, best_results[train-iou_valid] = 0.6574723098814056
+[INFO] 2020-11-23 22:53:12:epoch = 4/400
+[INFO] 2020-11-23 23:00:18:results[train-iou_valid] = 0.6556027615221578, best_results[train-iou_valid] = 0.6574723098814056
+[INFO] 2020-11-23 23:00:18:epoch = 5/400
+[INFO] 2020-11-23 23:07:25:results[train-iou_valid] = 0.6666401681946819, best_results[train-iou_valid] = 0.6666401681946819
+[INFO] 2020-11-23 23:07:26:epoch = 6/400
+[INFO] 2020-11-23 23:14:32:results[train-iou_valid] = 0.6794828137603243, best_results[train-iou_valid] = 0.6794828137603243
+[INFO] 2020-11-23 23:14:33:epoch = 7/400
+[INFO] 2020-11-23 23:21:37:results[train-iou_valid] = 0.6869884111631983, best_results[train-iou_valid] = 0.6869884111631983
+[INFO] 2020-11-23 23:21:37:epoch = 8/400
+[INFO] 2020-11-23 23:28:44:results[train-iou_valid] = 0.6886306360362779, best_results[train-iou_valid] = 0.6886306360362779
+[INFO] 2020-11-23 23:28:44:epoch = 9/400
+[INFO] 2020-11-23 23:35:50:results[train-iou_valid] = 0.6952238813577828, best_results[train-iou_valid] = 0.6952238813577828
+[INFO] 2020-11-23 23:35:51:epoch = 10/400
+[INFO] 2020-11-23 23:42:57:results[train-iou_valid] = 0.7011530132086685, best_results[train-iou_valid] = 0.7011530132086685
+[INFO] 2020-11-23 23:42:57:epoch = 11/400
+[INFO] 2020-11-23 23:50:03:results[train-iou_valid] = 0.7086484187916865, best_results[train-iou_valid] = 0.7086484187916865
+[INFO] 2020-11-23 23:50:03:epoch = 12/400
+[INFO] 2020-11-23 23:57:09:results[train-iou_valid] = 0.718743863987955, best_results[train-iou_valid] = 0.718743863987955
+[INFO] 2020-11-23 23:57:09:epoch = 13/400
+[INFO] 2020-11-24 00:04:16:results[train-iou_valid] = 0.7159452902018774, best_results[train-iou_valid] = 0.718743863987955
+[INFO] 2020-11-24 00:04:16:epoch = 14/400
+[INFO] 2020-11-24 00:11:23:results[train-iou_valid] = 0.7139521247437298, best_results[train-iou_valid] = 0.718743863987955
+[INFO] 2020-11-24 00:11:23:epoch = 15/400
+[INFO] 2020-11-24 00:18:30:results[train-iou_valid] = 0.7292921150851788, best_results[train-iou_valid] = 0.7292921150851788
+[INFO] 2020-11-24 00:18:30:epoch = 16/400
+[INFO] 2020-11-24 00:25:36:results[train-iou_valid] = 0.728845613912244, best_results[train-iou_valid] = 0.7292921150851788
+[INFO] 2020-11-24 00:25:36:epoch = 17/400
+[INFO] 2020-11-24 00:32:42:results[train-iou_valid] = 0.7321282744674495, best_results[train-iou_valid] = 0.7321282744674495
+[INFO] 2020-11-24 00:32:43:epoch = 18/400
+[INFO] 2020-11-24 00:39:49:results[train-iou_valid] = 0.7432192516157315, best_results[train-iou_valid] = 0.7432192516157315
+[INFO] 2020-11-24 00:39:49:epoch = 19/400
+[INFO] 2020-11-24 00:46:56:results[train-iou_valid] = 0.7361772655668628, best_results[train-iou_valid] = 0.7432192516157315
+[INFO] 2020-11-24 00:46:56:epoch = 20/400
+[INFO] 2020-11-24 00:54:02:results[train-iou_valid] = 0.7439043297083601, best_results[train-iou_valid] = 0.7439043297083601
+[INFO] 2020-11-24 00:54:02:epoch = 21/400
+[INFO] 2020-11-24 01:01:08:results[train-iou_valid] = 0.7436540869727242, best_results[train-iou_valid] = 0.7439043297083601
+[INFO] 2020-11-24 01:01:08:epoch = 22/400
+[INFO] 2020-11-24 01:08:13:results[train-iou_valid] = 0.7445927061615668, best_results[train-iou_valid] = 0.7445927061615668
+[INFO] 2020-11-24 01:08:13:epoch = 23/400
+[INFO] 2020-11-24 01:15:20:results[train-iou_valid] = 0.7448312056974737, best_results[train-iou_valid] = 0.7448312056974737
+[INFO] 2020-11-24 01:15:20:epoch = 24/400
+[INFO] 2020-11-24 01:22:27:results[train-iou_valid] = 0.7382278315504752, best_results[train-iou_valid] = 0.7448312056974737
+[INFO] 2020-11-24 01:22:27:epoch = 25/400
+[INFO] 2020-11-24 01:29:34:results[train-iou_valid] = 0.7413850090933671, best_results[train-iou_valid] = 0.7448312056974737
+[INFO] 2020-11-24 01:29:34:epoch = 26/400
+[INFO] 2020-11-24 01:36:40:results[train-iou_valid] = 0.7459936299587887, best_results[train-iou_valid] = 0.7459936299587887
+[INFO] 2020-11-24 01:36:40:epoch = 27/400
+[INFO] 2020-11-24 01:43:47:results[train-iou_valid] = 0.7568510631720379, best_results[train-iou_valid] = 0.7568510631720379
+[INFO] 2020-11-24 01:43:47:epoch = 28/400
+[INFO] 2020-11-24 01:50:53:results[train-iou_valid] = 0.7608630421041247, best_results[train-iou_valid] = 0.7608630421041247
+[INFO] 2020-11-24 01:50:53:epoch = 29/400
+[INFO] 2020-11-24 01:57:58:results[train-iou_valid] = 0.7538144040336139, best_results[train-iou_valid] = 0.7608630421041247
+[INFO] 2020-11-24 01:57:59:epoch = 30/400
+[INFO] 2020-11-24 02:05:05:results[train-iou_valid] = 0.7607996542316303, best_results[train-iou_valid] = 0.7608630421041247
+[INFO] 2020-11-24 02:05:05:epoch = 31/400
+[INFO] 2020-11-24 02:12:11:results[train-iou_valid] = 0.7599121044585755, best_results[train-iou_valid] = 0.7608630421041247
+[INFO] 2020-11-24 02:12:11:epoch = 32/400
+[INFO] 2020-11-24 02:19:19:results[train-iou_valid] = 0.755800603622502, best_results[train-iou_valid] = 0.7608630421041247
+[INFO] 2020-11-24 02:19:19:epoch = 33/400
+[INFO] 2020-11-24 02:26:24:results[train-iou_valid] = 0.7575170489051791, best_results[train-iou_valid] = 0.7608630421041247
+[INFO] 2020-11-24 02:26:24:epoch = 34/400
+[INFO] 2020-11-24 02:33:30:results[train-iou_valid] = 0.7610841192229026, best_results[train-iou_valid] = 0.7610841192229026
+[INFO] 2020-11-24 02:33:30:epoch = 35/400
+[INFO] 2020-11-24 02:40:36:results[train-iou_valid] = 0.7568298744859486, best_results[train-iou_valid] = 0.7610841192229026
+[INFO] 2020-11-24 02:40:36:epoch = 36/400
+[INFO] 2020-11-24 02:47:41:results[train-iou_valid] = 0.7714381408562395, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 02:47:42:epoch = 37/400
+[INFO] 2020-11-24 02:54:47:results[train-iou_valid] = 0.7675429367014985, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 02:54:47:epoch = 38/400
+[INFO] 2020-11-24 03:01:52:results[train-iou_valid] = 0.7675052722198041, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 03:01:52:epoch = 39/400
+[INFO] 2020-11-24 03:08:58:results[train-iou_valid] = 0.7630432380561651, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 03:08:58:epoch = 40/400
+[INFO] 2020-11-24 03:16:05:results[train-iou_valid] = 0.7646925512513565, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 03:16:05:epoch = 41/400
+[INFO] 2020-11-24 03:23:12:results[train-iou_valid] = 0.7631611025380654, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 03:23:13:epoch = 42/400
+[INFO] 2020-11-24 03:30:19:results[train-iou_valid] = 0.7537798362478612, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 03:30:19:epoch = 43/400
+[INFO] 2020-11-24 03:37:25:results[train-iou_valid] = 0.7688173996196449, best_results[train-iou_valid] = 0.7714381408562395
+[INFO] 2020-11-24 03:37:26:epoch = 44/400
+[INFO] 2020-11-24 03:44:31:results[train-iou_valid] = 0.776968145726927, best_results[train-iou_valid] = 0.776968145726927
+[INFO] 2020-11-24 03:44:31:epoch = 45/400
+[INFO] 2020-11-24 03:51:37:results[train-iou_valid] = 0.7728627364381372, best_results[train-iou_valid] = 0.776968145726927
+[INFO] 2020-11-24 03:51:37:epoch = 46/400
+[INFO] 2020-11-24 03:58:43:results[train-iou_valid] = 0.7693012968411536, best_results[train-iou_valid] = 0.776968145726927
+[INFO] 2020-11-24 03:58:43:epoch = 47/400
+[INFO] 2020-11-24 04:05:48:results[train-iou_valid] = 0.778565895846889, best_results[train-iou_valid] = 0.778565895846889
+[INFO] 2020-11-24 04:05:48:epoch = 48/400
+[INFO] 2020-11-24 04:12:56:results[train-iou_valid] = 0.777087654853904, best_results[train-iou_valid] = 0.778565895846889
+[INFO] 2020-11-24 04:12:56:epoch = 49/400
+[INFO] 2020-11-24 04:20:01:results[train-iou_valid] = 0.7655794027334486, best_results[train-iou_valid] = 0.778565895846889
+[INFO] 2020-11-24 04:20:01:epoch = 50/400
+[INFO] 2020-11-24 04:27:07:results[train-iou_valid] = 0.7749549800709788, best_results[train-iou_valid] = 0.778565895846889
+[INFO] 2020-11-24 04:27:07:epoch = 51/400
+[INFO] 2020-11-24 04:34:13:results[train-iou_valid] = 0.7812012279322083, best_results[train-iou_valid] = 0.7812012279322083
+[INFO] 2020-11-24 04:34:13:epoch = 52/400
+[INFO] 2020-11-24 04:41:19:results[train-iou_valid] = 0.770934215028436, best_results[train-iou_valid] = 0.7812012279322083
+[INFO] 2020-11-24 04:41:20:epoch = 53/400
+[INFO] 2020-11-24 04:48:24:results[train-iou_valid] = 0.7756493648468037, best_results[train-iou_valid] = 0.7812012279322083
+[INFO] 2020-11-24 04:48:24:epoch = 54/400
+[INFO] 2020-11-24 04:55:31:results[train-iou_valid] = 0.7831894482836312, best_results[train-iou_valid] = 0.7831894482836312
+[INFO] 2020-11-24 04:55:31:epoch = 55/400
+[INFO] 2020-11-24 05:02:37:results[train-iou_valid] = 0.7824681981131812, best_results[train-iou_valid] = 0.7831894482836312
+[INFO] 2020-11-24 05:02:37:epoch = 56/400
+[INFO] 2020-11-24 05:09:43:results[train-iou_valid] = 0.7784983381489605, best_results[train-iou_valid] = 0.7831894482836312
+[INFO] 2020-11-24 05:09:43:epoch = 57/400
+[INFO] 2020-11-24 05:16:48:results[train-iou_valid] = 0.7799149741001049, best_results[train-iou_valid] = 0.7831894482836312
+[INFO] 2020-11-24 05:16:48:epoch = 58/400
+[INFO] 2020-11-24 05:23:55:results[train-iou_valid] = 0.7810840267222339, best_results[train-iou_valid] = 0.7831894482836312
+[INFO] 2020-11-24 05:23:55:epoch = 59/400
+[INFO] 2020-11-24 05:31:01:results[train-iou_valid] = 0.7853641212351009, best_results[train-iou_valid] = 0.7853641212351009
+[INFO] 2020-11-24 05:31:01:epoch = 60/400
+[INFO] 2020-11-24 05:38:08:results[train-iou_valid] = 0.7847903081402642, best_results[train-iou_valid] = 0.7853641212351009
+[INFO] 2020-11-24 05:38:08:epoch = 61/400
+[INFO] 2020-11-24 05:45:13:results[train-iou_valid] = 0.7746591226852084, best_results[train-iou_valid] = 0.7853641212351009
+[INFO] 2020-11-24 05:45:13:epoch = 62/400
+[INFO] 2020-11-24 05:52:20:results[train-iou_valid] = 0.78878761099268, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 05:52:20:epoch = 63/400
+[INFO] 2020-11-24 05:59:26:results[train-iou_valid] = 0.7807995391062883, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 05:59:26:epoch = 64/400
+[INFO] 2020-11-24 06:06:33:results[train-iou_valid] = 0.7793968181472359, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:06:34:epoch = 65/400
+[INFO] 2020-11-24 06:13:39:results[train-iou_valid] = 0.7834079068832924, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:13:39:epoch = 66/400
+[INFO] 2020-11-24 06:20:45:results[train-iou_valid] = 0.7823010285052651, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:20:45:epoch = 67/400
+[INFO] 2020-11-24 06:27:52:results[train-iou_valid] = 0.7844183315238858, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:27:52:epoch = 68/400
+[INFO] 2020-11-24 06:34:58:results[train-iou_valid] = 0.7789266345372409, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:34:58:epoch = 69/400
+[INFO] 2020-11-24 06:42:05:results[train-iou_valid] = 0.7869684050585959, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:42:05:epoch = 70/400
+[INFO] 2020-11-24 06:49:11:results[train-iou_valid] = 0.787783299881943, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:49:11:epoch = 71/400
+[INFO] 2020-11-24 06:56:16:results[train-iou_valid] = 0.7794904832963425, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 06:56:16:epoch = 72/400
+[INFO] 2020-11-24 07:03:22:results[train-iou_valid] = 0.7842008116025936, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:03:22:epoch = 73/400
+[INFO] 2020-11-24 07:10:29:results[train-iou_valid] = 0.784708865815847, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:10:29:epoch = 74/400
+[INFO] 2020-11-24 07:17:34:results[train-iou_valid] = 0.788745904043991, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:17:34:epoch = 75/400
+[INFO] 2020-11-24 07:24:39:results[train-iou_valid] = 0.7859631445387222, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:24:39:epoch = 76/400
+[INFO] 2020-11-24 07:31:45:results[train-iou_valid] = 0.7836238399315446, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:31:45:epoch = 77/400
+[INFO] 2020-11-24 07:38:50:results[train-iou_valid] = 0.7823113509322066, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:38:51:epoch = 78/400
+[INFO] 2020-11-24 07:45:58:results[train-iou_valid] = 0.7864178963400769, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:45:58:epoch = 79/400
+[INFO] 2020-11-24 07:53:03:results[train-iou_valid] = 0.7882394394212348, best_results[train-iou_valid] = 0.78878761099268
+[INFO] 2020-11-24 07:53:03:epoch = 80/400
+[INFO] 2020-11-24 08:00:09:results[train-iou_valid] = 0.7908376097867467, best_results[train-iou_valid] = 0.7908376097867467
+[INFO] 2020-11-24 08:00:09:epoch = 81/400
+[INFO] 2020-11-24 08:07:16:results[train-iou_valid] = 0.7855071965618841, best_results[train-iou_valid] = 0.7908376097867467
+[INFO] 2020-11-24 08:07:16:epoch = 82/400
+[INFO] 2020-11-24 08:14:22:results[train-iou_valid] = 0.7878146577650359, best_results[train-iou_valid] = 0.7908376097867467
+[INFO] 2020-11-24 08:14:22:epoch = 83/400
+[INFO] 2020-11-24 08:21:28:results[train-iou_valid] = 0.7926891970650958, best_results[train-iou_valid] = 0.7926891970650958
+[INFO] 2020-11-24 08:21:28:epoch = 84/400
+[INFO] 2020-11-24 08:28:35:results[train-iou_valid] = 0.7922513991627449, best_results[train-iou_valid] = 0.7926891970650958
+[INFO] 2020-11-24 08:28:35:epoch = 85/400
+[INFO] 2020-11-24 08:35:41:results[train-iou_valid] = 0.7885725241184258, best_results[train-iou_valid] = 0.7926891970650958
+[INFO] 2020-11-24 08:35:41:epoch = 86/400
+[INFO] 2020-11-24 08:42:46:results[train-iou_valid] = 0.782605202703561, best_results[train-iou_valid] = 0.7926891970650958
+[INFO] 2020-11-24 08:42:46:epoch = 87/400
+[INFO] 2020-11-24 08:49:51:results[train-iou_valid] = 0.7895828659778099, best_results[train-iou_valid] = 0.7926891970650958
+[INFO] 2020-11-24 08:49:52:epoch = 88/400
+[INFO] 2020-11-24 08:56:57:results[train-iou_valid] = 0.7876889039520732, best_results[train-iou_valid] = 0.7926891970650958
+[INFO] 2020-11-24 08:56:57:epoch = 89/400
+[INFO] 2020-11-24 09:04:03:results[train-iou_valid] = 0.7945477191326905, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:04:03:epoch = 90/400
+[INFO] 2020-11-24 09:11:08:results[train-iou_valid] = 0.7919187141151556, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:11:08:epoch = 91/400
+[INFO] 2020-11-24 09:18:15:results[train-iou_valid] = 0.7885860464410456, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:18:15:epoch = 92/400
+[INFO] 2020-11-24 09:25:21:results[train-iou_valid] = 0.790916967466349, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:25:21:epoch = 93/400
+[INFO] 2020-11-24 09:32:28:results[train-iou_valid] = 0.7889439425541167, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:32:28:epoch = 94/400
+[INFO] 2020-11-24 09:39:35:results[train-iou_valid] = 0.7857436731777455, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:39:35:epoch = 95/400
+[INFO] 2020-11-24 09:46:43:results[train-iou_valid] = 0.7901039105998467, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:46:43:epoch = 96/400
+[INFO] 2020-11-24 09:53:51:results[train-iou_valid] = 0.791032493197907, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 09:53:51:epoch = 97/400
+[INFO] 2020-11-24 10:00:55:results[train-iou_valid] = 0.7918934743432249, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 10:00:55:epoch = 98/400
+[INFO] 2020-11-24 10:08:02:results[train-iou_valid] = 0.793698511672143, best_results[train-iou_valid] = 0.7945477191326905
+[INFO] 2020-11-24 10:08:02:epoch = 99/400
+[INFO] 2020-11-24 10:15:07:results[train-iou_valid] = 0.7970699555052232, best_results[train-iou_valid] = 0.7970699555052232
+[INFO] 2020-11-24 10:15:08:epoch = 100/400
+[INFO] 2020-11-24 10:22:22:results[train-iou_valid] = 0.7916217855069275, best_results[train-iou_valid] = 0.7970699555052232
+[INFO] 2020-11-24 10:22:22:epoch = 101/400
