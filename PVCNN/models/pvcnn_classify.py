@@ -339,6 +339,7 @@ class PVCNN_classifier(nn.Module):
             #     #print(torch.cat(featuresList, dim=1).shape)
             #     #return self.classifier(torch.cat(featuresList, dim=1).max(dim=2).values) # [B, K]
             #     return self.classifier(features.max(dim=2).values) # [B, K]
+            print(features.shape, features.max(dim=2).values.shape)
             return self.classifier(features.max(dim=2).values) # [B, K]
         else:
             return features#.max(dim=2).values #[B, C, n]
