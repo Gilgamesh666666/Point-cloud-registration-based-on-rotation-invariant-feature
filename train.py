@@ -72,6 +72,7 @@ for i, s in enumerate(['train', 'valid']): # (s=='train'),
                             num_workers=configs.dataloader.num_workers, 
                             collate_fn=collate_fn,
                             pin_memory=configs.dataloader.pin_memory,
+                            drop_last=configs.dataloader.drop_last,
                             worker_init_fn=lambda worker_id: np.random.seed(np.random.get_state()[1][0] + worker_id + (i + 1)))
 
 if args.evaluate and 'other_dataset' in configs.evaluate:
