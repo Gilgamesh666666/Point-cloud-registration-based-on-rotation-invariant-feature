@@ -30,7 +30,7 @@ We compare the results to several state-of-the-art networks (until 2020).
 | [ClusterNet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_ClusterNet_Deep_Hierarchical_Cluster_Network_With_Rigorously_Rotation-Invariant_Representation_for_CVPR_2019_paper.pdf) | 87.1                   | 87.1               |
 | Ours(cu-pt)                                                  | 92.0                   | **88.8**           |
 | Ours(cu-dg)                                                  | 91.9                   | **89.3**           |
-| Ours(sph-pt)                                                 | 91.9                   | **86.9**           |
+| Ours(sph-pt)                                                 | 91.9                   | **88.7**           |
 | Ours(sph-dg)                                                 | 91.9                   | **89.7**           |
 
 Then we use the model trained in classifying task as the feature extractor to register point cloud in Modelnet40. The registration pipeline is shown below. We follow the classical two-stage registration pipeline. First, extract and match points' feature between the source point cloud and target point cloud to get correspondences, then use robust pose estimator such as RANSAC and TEASER to recover pose from noisy correspondences.
