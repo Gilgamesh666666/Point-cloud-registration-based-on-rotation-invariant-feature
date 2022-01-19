@@ -13,10 +13,10 @@ We fuse them using MLP, thus the local features are rotation invariant as well. 
 Where **O** is the point cloud's center, **pmax** is the point furthest from the center, and **pmin** is the point closest to the center. We use the LRF to rotate the point cloud, then concatenate the coordinates with the local features to create initial features for the later network.
 
 The features of the points are no longer susceptible to rotation after these two processes. PVCNN's voxelization component, on the other hand, is cube voxelization, whose voxelization outputs are closely related to 3D coordinates. As a result, the same point will be assigned to various voxels in different coordinate frames. We transform it into a spherical voxel. That is, we convert from a Cartesian to a spherical coordinate system. We also employ DGCNN instead of the PointNet used by the original PVCNN to improve the feature's ability to describe in detail. To speed up the network, we created two Pytorch extensions that calculate the PPF feature in CUDA and perform CUDA-based spherical voxelization. Furthermore, instead of grouping, we use the neighborhood knowledge provided by voxelization to perform DGCNN, which speeds up the network even more. The network's detailed architecture is presented below.
-<div align=center><img src="assets\旋转不变特征提取器网络结构图.jpg" width="900px" /></div>
+<div align=center><img src="assets\旋转不变特征提取器网络结构图.jpg" width="800px" /></div>
 
 To verify the network, we use it to classify the random rotated modelnet40 dataset. The following diagram depicts the classification network architecture:
-<div align=center><img src="assets\pvcnn_classify.jpg" width="900px" /></div>
+<div align=center><img src="assets\pvcnn_classify.jpg" width="800px" /></div>
 
 We compare the results to several state-of-the-art networks (until 2020).
 
@@ -34,7 +34,7 @@ We compare the results to several state-of-the-art networks (until 2020).
 | Ours(sph-dg)                                                 | 91.9                   | **89.7**           |
 
 Then we use the model trained in classifying task as the feature extractor to register point cloud in Modelnet40. The registration pipeline is shown below. We follow the classical two-stage registration pipeline. First, extract and match points' feature between the source point cloud and target point cloud to get correspondences, then use robust pose estimator such as RANSAC and TEASER to recover pose from noisy correspondences.
-<img src="assets\pvcnn_registration.jpg" style="zoom: 33%;" />
+<div align=center><img src="assets\pvcnn_registration.jpg"  width="800px" /></div>
 [DeepGMR](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500715.pdf)'s ModelNet40-Noisy, ICL-NUIM, and ModelNet40-Noisy-Partial datasets are used to evaluate registration performance. The results are shown below. Note that our model was trained on classification tasks without any finetuning in the registration datasets, whereas DeepGMR was trained on them. It can be seen that our method has good generalization ability.
 
 The registration results on ModelNet40-Noisy
