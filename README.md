@@ -34,7 +34,9 @@ We compare the results to several state-of-the-art networks (until 2020).
 | Ours(sph-dg)                                                 | 91.9                   | **89.7**           |
 
 Then we use the model trained in classifying task as the feature extractor to register point cloud in Modelnet40. The registration pipeline is shown below. We follow the classical two-stage registration pipeline. First, extract and match points' feature between the source point cloud and target point cloud to get correspondences, then use robust pose estimator such as RANSAC and TEASER to recover pose from noisy correspondences.
+
 <div align=center><img src="assets\pvcnn_registration.jpg"  width="800px" /></div>
+
 [DeepGMR](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500715.pdf)'s ModelNet40-Noisy, ICL-NUIM, and ModelNet40-Noisy-Partial datasets are used to evaluate registration performance. The results are shown below. Note that our model was trained on classification tasks without any finetuning in the registration datasets, whereas DeepGMR was trained on them. It can be seen that our method has good generalization ability.
 
 The registration results on ModelNet40-Noisy
