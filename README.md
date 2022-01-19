@@ -1,13 +1,13 @@
 # Point Cloud Registration Based on Rotation invariant Feature
 
 This is a point cloud registration algorithm using rotation invariant feature. The feature abstract network is modified from [PVCNN](https://github.com/mit-han-lab/pvcnn). We modify it to be invariant to rotation. For each point **p**,  we abstract the Point Pair Features(PPF) between **p** and its k nearest neighbors  **pi** and fuse them as the local feature of **p**. The PPF is a hand-craft rotation invariant feature, whose definition is shown as following:
-<div align=center><img width="100px" src="assets\ppf.png" /></div>
+<div align=center><img width="300px" src="assets\ppf.png" /></div>
 where **n**, **n1** are the normals of **p** and **p1** respectively，**d**=**p**-**p1**，<.> is a function giving the angle between two vectors.
 
 We fuse them using MLP, thus the local features are rotation invariant as well. We also create a local reference frame to rotate the point cloud, which can mitigate the rotation impact. As an illustration shown below, the local reference frame is defined as follows. 
 
 <div align=center><img width="300px" src="assets\LRF.png" /></div>
-<div align=center><img width="100px" src="assets\LRFeq.png" /></div>
+<div align=center><img width="300px" src="assets\LRFeq.png" /></div>
 Where **O** is the point cloud's center, **pmax** is the point furthest from the center, and **pmin** is the point closest to the center. We use the LRF to rotate the point cloud, then concatenate the coordinates with the local features to create initial features for the later network.
 
 The features of the points are no longer susceptible to rotation after these two processes. PVCNN's voxelization component, on the other hand, is cube voxelization, whose voxelization outputs are closely related to 3D coordinates. As a result, the same point will be assigned to various voxels in different coordinate frames. We transform it into a spherical voxel. That is, we convert from a Cartesian to a spherical coordinate system. We also employ DGCNN instead of the PointNet used by the original PVCNN to improve the feature's ability to describe in detail. To speed up the network, we created two Pytorch extensions that calculate the PPF feature in CUDA and perform CUDA-based spherical voxelization. Furthermore, instead of grouping, we use the neighborhood knowledge provided by voxelization to perform DGCNN, which speeds up the network even more. The network's detailed architecture is presented below.
