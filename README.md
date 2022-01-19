@@ -16,10 +16,10 @@ $$
 Where $\mathbf{O}$ is the point cloud's center, $\mathbf{p_{\max}}$ is the point furthest from the center, and $\mathbf{p_{\min}}$ is the point closest to the center. We use the LRF to rotate the point cloud, then concatenate the coordinates with the local features to create initial features for the later network.
 
 The features of the points are no longer susceptible to rotation after these two processes. PVCNN's voxelization component, on the other hand, is cube voxelization, whose voxelization outputs are closely related to 3D coordinates. As a result, the same point will be assigned to various voxels in different coordinate frames. We transform it into a spherical voxel. That is, we convert from a Cartesian to a spherical coordinate system. We also employ DGCNN instead of the PointNet used by the original PVCNN to improve the feature's ability to describe in detail. To speed up the network, we created two Pytorch extensions that calculate the PPF feature in CUDA and perform CUDA-based spherical voxelization. Furthermore, instead of grouping, we use the neighborhood knowledge provided by voxelization to perform DGCNN, which speeds up the network even more. The network's detailed architecture is presented below.
-<img src="assets\旋转不变特征提取器网络结构图.jpg" style="zoom: 33%;" />
+<div align=center><img src="assets\旋转不变特征提取器网络结构图.jpg" width="900px" /></div>
 
 To verify the network, we use it to classify the random rotated modelnet40 dataset. The following diagram depicts the classification network architecture:
-<img src="assets\pvcnn_classify.jpg" style="zoom: 33%;" />
+<div align=center><img src="assets\pvcnn_classify.jpg" width="900px" /></div>
 
 We compare the results to several state-of-the-art networks (until 2020).
 
