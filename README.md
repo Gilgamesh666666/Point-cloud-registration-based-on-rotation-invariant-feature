@@ -8,7 +8,7 @@ where $\mathbf{n}, \mathbf{n}_{1}$ are the normals of $\mathbf{p}$ and $\mathbf{
 
 We fuse them using MLP, thus the local features are rotation invariant as well. We also create a local reference frame to rotate the point cloud, which can mitigate the rotation impact. As an illustration shown below, the local reference frame is defined as follows. 
 
-<img  style="zoom: 25%;" src="assets\LRF.png" />
+<img width="300px" src="assets\LRF.png" />
 $$
 LRF = \left[\mathbf{Op_{\max}},\mathbf{{Op_{\max}}_{\bot}}, \mathbf{Op_{\max}}\times\mathbf{{Op_{\max}}_{\bot}}\right]\\
 \mathbf{{Op_{\max}}_{\bot}} = \mathbf{Op_{\min}}-\left( \mathbf{Op_{\min}}\bullet \mathbf{Op_{\max}} \right) \mathbf{Op_{\max}}
