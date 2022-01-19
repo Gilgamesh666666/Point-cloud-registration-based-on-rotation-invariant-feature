@@ -1,8 +1,8 @@
 # Point Cloud Registration Based on Rotation invariant Feature
 
-This is a point cloud registration algorithm using rotation invariant feature. The feature abstract network is modified from [PVCNN](https://github.com/mit-han-lab/pvcnn). We modify it to be invariant to rotation. For each point **p**,  we abstract the Point Pair Features(PPF) between **p** and its k nearest neighbors  **pi** and fuse them as the local feature of **p**. The PPF is a hand-craft rotation invariant feature, whose definition is shown as following:
+This is a point cloud registration algorithm using rotation invariant feature. The feature abstract network is modified from [PVCNN](https://github.com/mit-han-lab/pvcnn). We modify it to be invariant to rotation. For each point **p**,  we abstract the Point Pair Features(PPF) between **p** and its k nearest neighbors **pi** and fuse them as the local feature of **p**. The PPF is a hand-craft rotation invariant feature, whose definition is shown as following:
 <div align=center><img width="200px" src="assets\ppf.png" /></div>
-where **n**, **n1** are the normals of **p** and **p1** respectively，**d**=**p**-**p1**，<.> is a function giving the angle between two vectors.
+where **n**, **n1** are the normals of **p** and **p1** respectively，**d** = **p** - **p1**，<.> is a function giving the angle between two vectors.
 
 We fuse them using MLP, thus the local features are rotation invariant as well. We also create a local reference frame to rotate the point cloud, which can mitigate the rotation impact. As an illustration shown below, the local reference frame is defined as follows. 
 
@@ -58,7 +58,7 @@ The registration results on ModelNet40-Noisy-Partial
 
 Here we give some qualitative results:
 
-| Before     | <img src="assets\desk_nb.png" style="zoom:25%;" /> | <img src="assets\cap_nb.png" style="zoom:25%;" /> | <img src="assets\basin_nb.png" style="zoom:25%;" /> | <img src="assets\partial_chair_nb.png" style="zoom:25%;" /> |
+| **Before** | <img src="assets\desk_nb.png" style="zoom:25%;" /> | <img src="assets\cap_nb.png" style="zoom:25%;" /> | <img src="assets\basin_nb.png" style="zoom:25%;" /> | <img src="assets\partial_chair_nb.png" style="zoom:25%;" /> |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **After**  | <img src="assets\desk_na.png" style="zoom:25%;" /> | <img src="assets\cap_na.png" style="zoom:25%;" /> | <img src="assets\basin_na.png" style="zoom:25%;" /> | <img src="assets\partial_chair_na.png" style="zoom:25%;" /> |
 | **Before** | <img src="assets\partial_plane_nb.png" style="zoom:25%;" /> | <img src="assets\basin_ib.png" style="zoom:25%;" /> | <img src="assets\desk_ib.png" style="zoom:25%;" /> | <img src="assets\plane_ib.png" style="zoom:25%;" /> |
