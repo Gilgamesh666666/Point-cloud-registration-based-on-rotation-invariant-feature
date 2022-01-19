@@ -8,7 +8,7 @@ where $\mathbf{n}, \mathbf{n}_{1}$ are the normals of $\mathbf{p}$ and $\mathbf{
 
 We fuse them using MLP, thus the local features are rotation invariant as well. We also create a local reference frame to rotate the point cloud, which can mitigate the rotation impact. As an illustration shown below, the local reference frame is defined as follows. 
 
-<img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/LRF.png" style="zoom: 33%;" />
+<img src="assets\LRF.png" style="zoom: 33%;" />
 $$
 LRF = \left[\mathbf{Op_{\max}},\mathbf{{Op_{\max}}_{\bot}}, \mathbf{Op_{\max}}\times\mathbf{{Op_{\max}}_{\bot}}\right]\\
 \mathbf{{Op_{\max}}_{\bot}} = \mathbf{Op_{\min}}-\left( \mathbf{Op_{\min}}\bullet \mathbf{Op_{\max}} \right) \mathbf{Op_{\max}}
@@ -17,13 +17,13 @@ Where $\mathbf{O}$ is the point cloud's center, $\mathbf{p_{\max}}$ is the point
 
 The features of the points are no longer susceptible to rotation after these two processes. PVCNN's voxelization component, on the other hand, is cube voxelization, whose voxelization outputs are closely related to 3D coordinates. As a result, the same point will be assigned to various voxels in different coordinate frames. We transform it into a spherical voxel. That is, we convert from a Cartesian to a spherical coordinate system. We also employ DGCNN instead of the PointNet used by the original PVCNN to improve the feature's ability to describe in detail. To speed up the network, we created two Pytorch extensions that calculate the PPF feature in CUDA and perform CUDA-based spherical voxelization. Furthermore, instead of grouping, we use the neighborhood knowledge provided by voxelization to perform DGCNN, which speeds up the network even more. The network's detailed architecture is presented below.
 
-![Rotation Invariant Feature Extracter](https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/旋转不变特征提取器网络结构图.jpg)
+![Rotation Invariant Feature Extracter](assets\旋转不变特征提取器网络结构图.jpg)
 
 
 
 To verify the network, we use it to classify the random rotated modelnet40 dataset. The following diagram depicts the classification network architecture:
 
-![Classification Network.The blue blocks are voxel-dgcnn block, in which $(64, 64, 32)$ indicate that there are two cascading single layer voxel-dgcnn block which ouputs $64$ channels and the resolution of whose voxelization is $32*32*32$.Green blocks are original MLP block, in which $(64, 64)$ indicate that there are two cascading single MLP layer which ouputs $64$ channels. Gray block is the score vector which gives the predicting probability that the input belong to corresponding class](https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/pvcnn_classify.jpg)
+![Classification Network.The blue blocks are voxel-dgcnn block, in which $(64, 64, 32)$ indicate that there are two cascading single layer voxel-dgcnn block which ouputs $64$ channels and the resolution of whose voxelization is $32*32*32$.Green blocks are original MLP block, in which $(64, 64)$ indicate that there are two cascading single MLP layer which ouputs $64$ channels. Gray block is the score vector which gives the predicting probability that the input belong to corresponding class](assets\pvcnn_classify.jpg)
 
 We compare the results to several state-of-the-art networks (until 2020).
 
@@ -42,7 +42,7 @@ We compare the results to several state-of-the-art networks (until 2020).
 
 Then we use the model trained in classifying task as the feature extractor to register point cloud in Modelnet40. The registration pipeline is shown below. We follow the classical two-stage registration pipeline. First, extract and match points' feature between the source point cloud and target point cloud to get correspondences, then use robust pose estimator such as RANSAC and TEASER to recover pose from noisy correspondences.
 
-![imagetext](https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/pvcnn_registration.jpg)
+![](assets\pvcnn_registration.jpg)
 
 [DeepGMR](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500715.pdf)'s ModelNet40-Noisy, ICL-NUIM, and ModelNet40-Noisy-Partial datasets are used to evaluate registration performance. The results are shown below. Note that our model was trained on classification tasks without any finetuning in the registration datasets, whereas DeepGMR was trained on them. It can be seen that our method has good generalization ability.
 
@@ -69,8 +69,8 @@ The registration results on ModelNet40-Noisy-Partial
 
 Here we give some qualitative results:
 
-| Before     | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/desk_nb.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/cap_nb.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/basin_nb.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/partial_chair_nb.png" style="zoom:25%;" /> |
+| Before     | <img src="assets\desk_nb.png" style="zoom:25%;" /> | <img src="assets\cap_nb.png" style="zoom:25%;" /> | <img src="assets\basin_nb.png" style="zoom:25%;" /> | <img src="assets\partial_chair_nb.png" style="zoom:25%;" /> |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **After**  | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/desk_na.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/cap_na.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/basin_na.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/partial_chair_na.png" style="zoom:25%;" /> |
-| **Before** | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/partial_plane_nb.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/basin_ib.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/desk_ib.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/plane_ib.png" style="zoom:25%;" /> |
-| **After**  | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/partial_plane_ia.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/basin_ia.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/desk_ia.png" style="zoom:25%;" /> | <img src="https://github.com/Gilgamesh666666/Point-cloud-registration-based-on-rotation-invariant-feature/tree/main/assets/plane_ig.png" style="zoom:25%;" /> |
+| **After**  | <img src="assets\desk_na.png" style="zoom:25%;" /> | <img src="assets\cap_na.png" style="zoom:25%;" /> | <img src="assets\basin_na.png" style="zoom:25%;" /> | <img src="assets\partial_chair_na.png" style="zoom:25%;" /> |
+| **Before** | <img src="assets\partial_plane_nb.png" style="zoom:25%;" /> | <img src="assets\basin_ib.png" style="zoom:25%;" /> | <img src="assets\desk_ib.png" style="zoom:25%;" /> | <img src="assets\plane_ib.png" style="zoom:25%;" /> |
+| **After**  | <img src="assets\partial_plane_ia.png" style="zoom:25%;" /> | <img src="assets\basin_ia.png" style="zoom:25%;" /> | <img src="assets\desk_ia.png" style="zoom:25%;" /> | <img src="assets\plane_ig.png" style="zoom:25%;" /> |
